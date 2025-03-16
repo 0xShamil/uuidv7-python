@@ -8,6 +8,7 @@ Just copy the `generator.py` file (or the contents) to your project.
 
 ```python
 from uuid7 import uuid7
+import uuid
 
 rand_uuid: uuid.UUID = uuid7()
 print(rand_uuid)
